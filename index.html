@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israt Jahan Mim | Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #111111;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #1B1B1B;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #B9974B;
+        }
+
+        .logo {
+            color: #D9B45B;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #D9B45B;
+        }
+
+        section {
+            padding: 65px 8%;
+        }
+
+        .home {
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .home h1 {
+            font-size: 45px;
+            color: #D9B45B;
+            margin: 10px 0;
+        }
+
+        .home h2 {
+            font-size: 23px;
+            color: white;
+        }
+
+        .home p {
+            color: #CCCCCC;
+            margin: 12px 0 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            width: fit-content;
+            background-color: #D9B45B;
+            color: #111111;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section-title {
+            color: #D9B45B;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #1B1B1B;
+            border: 1px solid #70572C;
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 15px;
+        }
+
+        .card p {
+            color: #CCCCCC;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            border: 1px solid #D9B45B;
+            color: #E5C77B;
+            padding: 10px 18px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #1B1B1B;
+            color: #BBBBBB;
+            border-top: 1px solid #70572C;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 5px;
+                font-size: 12px;
+            }
+
+            .home h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">IS<span>RAT.</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <p>HELLO, WELCOME TO MY PORTFOLIO</p>
+
+        <h1>I'm Israt Mim</h1>
+
+        <h2>Diploma in Computer Science and Technology Student</h2>
+
+        <p>
+            I am passionate about learning technology,
+            web development and building new skills.
+        </p>
+
+        <a href="#about" class="btn">Explore My Portfolio</a>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card">
+            <p>
+                Hello! I am Israt Mim, a Diploma student
+                in Computer Science and Technology.
+
+                I enjoy learning about computers,
+                programming and web development.
+                My goal is to improve my skills
+                and become a successful professional.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">My Education</h2>
+
+        <div class="card">
+            <h3>Diploma in Computer Science and Technology</h3>
+            <p>Currently Studying</p>
+            <p>Brahmanbaria Polytechnic Institute</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">MS Word</div>
+            <div class="skill">MS Excel</div>
+            <div class="skill">MS PowerPoint</div>
+            <div class="skill">MS Access</div>
+            <div class="skill">Typing</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Israt Mim. All Rights Reserved.</p>
+        <p>Personal Portfolio Website</p>
+    </footer>
+
+</body>
+          </html>
+          
